@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>90</y>
+      <w>180</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>JobSeeker
+--------
+JS_ID[int]
+JS_FirstName[varchar(50)]
+JS_LastName[varchar(50)]
+JS_Email[varchar(50)]
+JS_Mobile[int]
+JS_DOB[date]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>670</x>
+      <y>120</y>
+      <w>160</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Fresher
+--------
+JS_ID[int]
+University[varchar(50)]
+YearPassing[date]
+CourseTitle[varchar(20)]
+TechID[int]
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>360</y>
+      <w>150</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Technology
+--------
+TechID[int]
+TechName[varchar(20)]
+ExpInTech[int]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>340</y>
+      <w>140</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Experienced
+--------
+JS_ID[int]
+ORG_ID[int]
+YearExperience[int]
+JobRole[varchar]
+TechnologyID[int]
+salary[int]
+location[varchar(20)]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>360</y>
+      <w>170</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Organisation
+--------
+ORG_ID[int]
+ORGName[varchar(20)]
+JobTitle[varchar(20)]
+OrgEmail[varchar(20)]
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>150</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>230</y>
+      <w>30</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>230</y>
+      <w>30</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>410</y>
+      <w>210</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;190.0;10.0</additional_attributes>
+  </element>
+</diagram>
